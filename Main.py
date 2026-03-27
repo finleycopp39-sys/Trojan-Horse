@@ -35,12 +35,10 @@ start_img = pygame.image.load('start_btn.png').convert_alpha()
 exit_img = pygame.image.load('exit_btn.png').convert_alpha()
 bg = pygame.image.load("bg_img (2).png").convert()
 bg_2 = pygame.image.load("Night_bg.png").convert()
-Main_bg = pygame.image.load("Main_Menu.png").convert_alpha()
 Home = pygame.image.load("Home_Button.png").convert()
 
 background = pygame.transform.smoothscale(bg, (SCREEN_WIDTH, SCREEN_HEIGHT))
 background_2 = pygame.transform.smoothscale(bg_2, (SCREEN_WIDTH, SCREEN_HEIGHT))
-menu_background = pygame.transform.smoothscale(Main_bg, (SCREEN_WIDTH, SCREEN_HEIGHT))
 Trojan_img = pygame.transform.scale(pygame.image.load("Trojan_img.png"), (80, 80))
 restart_img = pygame.image.load('Restart_img.png').convert_alpha()
 
